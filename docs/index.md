@@ -97,3 +97,9 @@ Clicking the mouse pointer on the link will open a new browser page display from
 
 - The reference Grafana dashboard screenshots, link and iframe URL were all obtained from publicly available website of [Internet2](https://snapp-portal.net.internet2.edu/).
 - The reference network device icons were all obtained from [ecceman/affinity](https://github.com/ecceman/affinity) github page.
+
+## Caveats
+
+- Browser will blocked insecure content when viewing Grafana Echarts dashboard that loads content from Gitlab server running unsecured HTTP. Recommended to have a secured HTTP Gitlab server where the SSL certificate is trusted by the workstation being used to view the Grafana dashboard.
+- THe JSON dataset file stored in Gitlab should be accessible anonymously from the workstation being used to view the Grafana dashboard. This file is being access from the workstation by the javascript function configured in Grafana Echarts dashboard.
+- Due to JSON dataset being loaded from browser JavaScript, cross-site scripting behavior is being blocked by Gitlab's default web server configuration. One option to solve this issue is by updating the Gitlab's nginx web server configuration to allow cross-site scripting.
