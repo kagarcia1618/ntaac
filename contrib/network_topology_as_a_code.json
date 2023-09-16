@@ -1,0 +1,178 @@
+{
+    "type": "force",
+    "categories": [
+        {
+            "name": "Border Spine",
+            "symbol": "image://https://raw.githubusercontent.com/kagarcia1618/affinity/master/svg/circle/blue/c_switch_multilayer_blue.svg",
+            "symbolSize": 40
+        },
+        {
+            "name": "Tier1 Firewall",
+            "symbol": "image://https://raw.githubusercontent.com/kagarcia1618/affinity/master/svg/circle/blue/c_firewall_blue.svg",
+            "symbolSize": 40
+        },
+        {
+            "name": "Leaf Switch",
+            "symbol": "image://https://raw.githubusercontent.com/kagarcia1618/affinity/master/svg/circle/blue/c_switch_blue.svg",
+            "symbolSize": 40
+        },
+        {
+            "name": "WAN Router",
+            "symbol": "image://https://raw.githubusercontent.com/kagarcia1618/affinity/master/svg/circle/blue/c_router_blue.svg",
+            "symbolSize": 40
+        },
+        {
+            "name": "VPC Leaf Switch",
+            "symbol": "image://https://raw.githubusercontent.com/kagarcia1618/affinity/master/svg/circle/blue/c_switch_blue.svg",
+            "symbolSize": 40
+        }
+    ],
+    "nodes": [
+        {
+            "name": "DCBS01",
+            "category": "Border Spine",
+            "url": "https://snapp-portal.net.internet2.edu/grafana/d/wMiXq91nk/cpu?orgId=2&viewPanel=2",
+            "iframe": "`<iframe src='https://snapp-portal.net.internet2.edu/grafana/d-solo/wMiXq91nk/cpu?orgId=2&from=now-12h&to=now&panelId=2' width='450' height='200' frameborder='0'></iframe>`"
+        },
+        {
+            "name": "DCBS02",
+            "category": "Border Spine",
+            "url": "https://snapp-portal.net.internet2.edu/grafana/d/wMiXq91nk/cpu?orgId=2&viewPanel=2",
+            "iframe": "`<iframe src='https://snapp-portal.net.internet2.edu/grafana/d-solo/wMiXq91nk/cpu?orgId=2&from=now-12h&to=now&panelId=2' width='450' height='200' frameborder='0'></iframe>`"
+        },
+        {
+            "name": "DCFW01",
+            "category": "Tier1 Firewall",
+            "url": "https://snapp-portal.net.internet2.edu/grafana/d/wMiXq91nk/cpu?orgId=2&viewPanel=2",
+            "iframe": "`<iframe src='https://snapp-portal.net.internet2.edu/grafana/d-solo/wMiXq91nk/cpu?orgId=2&from=now-12h&to=now&panelId=2' width='450' height='200' frameborder='0'></iframe>`"
+        },
+        {
+            "name": "DCLS01",
+            "category": "Leaf Switch",
+            "url": "https://snapp-portal.net.internet2.edu/grafana/d/wMiXq91nk/cpu?orgId=2&viewPanel=2",
+            "iframe": "`<iframe src='https://snapp-portal.net.internet2.edu/grafana/d-solo/wMiXq91nk/cpu?orgId=2&from=now-12h&to=now&panelId=2' width='450' height='200' frameborder='0'></iframe>`"
+        },
+        {
+            "name": "DCLS02",
+            "category": "Leaf Switch",
+            "url": "https://snapp-portal.net.internet2.edu/grafana/d/wMiXq91nk/cpu?orgId=2&viewPanel=2",
+            "iframe": "`<iframe src='https://snapp-portal.net.internet2.edu/grafana/d-solo/wMiXq91nk/cpu?orgId=2&from=now-12h&to=now&panelId=2' width='450' height='200' frameborder='0'></iframe>`"
+        },
+        {
+            "name": "DCWR01",
+            "category": "WAN Router",
+            "url": "https://snapp-portal.net.internet2.edu/grafana/d/wMiXq91nk/cpu?orgId=2&viewPanel=2",
+            "iframe": "`<iframe src='https://snapp-portal.net.internet2.edu/grafana/d-solo/wMiXq91nk/cpu?orgId=2&from=now-12h&to=now&panelId=2' width='450' height='200' frameborder='0'></iframe>`"
+        },
+        {
+            "name": "DCLS03",
+            "category": "VPC Leaf Switch",
+            "url": "https://snapp-portal.net.internet2.edu/grafana/d/wMiXq91nk/cpu?orgId=2&viewPanel=2",
+            "iframe": "`<iframe src='https://snapp-portal.net.internet2.edu/grafana/d-solo/wMiXq91nk/cpu?orgId=2&from=now-12h&to=now&panelId=2' width='450' height='200' frameborder='0'></iframe>`"
+        },
+        {
+            "name": "DCLS04",
+            "category": "VPC Leaf Switch",
+            "url": "https://snapp-portal.net.internet2.edu/grafana/d/wMiXq91nk/cpu?orgId=2&viewPanel=2",
+            "iframe": "`<iframe src='https://snapp-portal.net.internet2.edu/grafana/d-solo/wMiXq91nk/cpu?orgId=2&from=now-12h&to=now&panelId=2' width='450' height='200' frameborder='0'></iframe>`"
+        },
+        {
+            "name": "DCFW02",
+            "category": "Tier1 Firewall",
+            "url": "https://snapp-portal.net.internet2.edu/grafana/d/wMiXq91nk/cpu?orgId=2&viewPanel=2",
+            "iframe": "`<iframe src='https://snapp-portal.net.internet2.edu/grafana/d-solo/wMiXq91nk/cpu?orgId=2&from=now-12h&to=now&panelId=2' width='450' height='200' frameborder='0'></iframe>`"
+        },
+        {
+            "name": "DCWR02",
+            "category": "WAN Router",
+            "url": "https://snapp-portal.net.internet2.edu/grafana/d/wMiXq91nk/cpu?orgId=2&viewPanel=2",
+            "iframe": "`<iframe src='https://snapp-portal.net.internet2.edu/grafana/d-solo/wMiXq91nk/cpu?orgId=2&from=now-12h&to=now&panelId=2' width='450' height='200' frameborder='0'></iframe>`"
+        }
+    ],
+    "links": [
+        {
+            "source": "DCWR01",
+            "target": "DCWR02",
+            "url": "https://snapp-portal.net.internet2.edu/grafana/d/86accab5aab6402a726547024df93fbf2/browse-interfaces?orgId=2&viewPanel=7",
+            "iframe": "`<iframe src='https://snapp-portal.net.internet2.edu/grafana/d-solo/86accab5aab6402a726547024df93fbf2/browse-interfaces?orgId=2&from=now-12h&to=now&panelId=7' width='450' height='200' frameborder='0'></iframe>`"
+        },
+        {
+            "source": "DCWR01",
+            "target": "DCFW01",
+            "url": "https://snapp-portal.net.internet2.edu/grafana/d/86accab5aab6402a726547024df93fbf2/browse-interfaces?orgId=2&viewPanel=7",
+            "iframe": "`<iframe src='https://snapp-portal.net.internet2.edu/grafana/d-solo/86accab5aab6402a726547024df93fbf2/browse-interfaces?orgId=2&from=now-12h&to=now&panelId=7' width='450' height='200' frameborder='0'></iframe>`"
+        },
+        {
+            "source": "DCFW01",
+            "target": "DCBS01",
+            "url": "https://snapp-portal.net.internet2.edu/grafana/d/86accab5aab6402a726547024df93fbf2/browse-interfaces?orgId=2&viewPanel=7",
+            "iframe": "`<iframe src='https://snapp-portal.net.internet2.edu/grafana/d-solo/86accab5aab6402a726547024df93fbf2/browse-interfaces?orgId=2&from=now-12h&to=now&panelId=7' width='450' height='200' frameborder='0'></iframe>`"
+        },
+        {
+            "source": "DCWR02",
+            "target": "DCFW02",
+            "url": "https://snapp-portal.net.internet2.edu/grafana/d/86accab5aab6402a726547024df93fbf2/browse-interfaces?orgId=2&viewPanel=7",
+            "iframe": "`<iframe src='https://snapp-portal.net.internet2.edu/grafana/d-solo/86accab5aab6402a726547024df93fbf2/browse-interfaces?orgId=2&from=now-12h&to=now&panelId=7' width='450' height='200' frameborder='0'></iframe>`"
+        },
+        {
+            "source": "DCFW02",
+            "target": "DCBS02",
+            "url": "https://snapp-portal.net.internet2.edu/grafana/d/86accab5aab6402a726547024df93fbf2/browse-interfaces?orgId=2&viewPanel=7",
+            "iframe": "`<iframe src='https://snapp-portal.net.internet2.edu/grafana/d-solo/86accab5aab6402a726547024df93fbf2/browse-interfaces?orgId=2&from=now-12h&to=now&panelId=7' width='450' height='200' frameborder='0'></iframe>`"
+        },
+        {
+            "source": "DCLS01",
+            "target": "DCBS01",
+            "url": "https://snapp-portal.net.internet2.edu/grafana/d/86accab5aab6402a726547024df93fbf2/browse-interfaces?orgId=2&viewPanel=7",
+            "iframe": "`<iframe src='https://snapp-portal.net.internet2.edu/grafana/d-solo/86accab5aab6402a726547024df93fbf2/browse-interfaces?orgId=2&from=now-12h&to=now&panelId=7' width='450' height='200' frameborder='0'></iframe>`"
+        },
+        {
+            "source": "DCLS01",
+            "target": "DCBS02",
+            "url": "https://snapp-portal.net.internet2.edu/grafana/d/86accab5aab6402a726547024df93fbf2/browse-interfaces?orgId=2&viewPanel=7",
+            "iframe": "`<iframe src='https://snapp-portal.net.internet2.edu/grafana/d-solo/86accab5aab6402a726547024df93fbf2/browse-interfaces?orgId=2&from=now-12h&to=now&panelId=7' width='450' height='200' frameborder='0'></iframe>`"
+        },
+        {
+            "source": "DCLS02",
+            "target": "DCBS01",
+            "url": "https://snapp-portal.net.internet2.edu/grafana/d/86accab5aab6402a726547024df93fbf2/browse-interfaces?orgId=2&viewPanel=7",
+            "iframe": "`<iframe src='https://snapp-portal.net.internet2.edu/grafana/d-solo/86accab5aab6402a726547024df93fbf2/browse-interfaces?orgId=2&from=now-12h&to=now&panelId=7' width='450' height='200' frameborder='0'></iframe>`"
+        },
+        {
+            "source": "DCLS02",
+            "target": "DCBS02",
+            "url": "https://snapp-portal.net.internet2.edu/grafana/d/86accab5aab6402a726547024df93fbf2/browse-interfaces?orgId=2&viewPanel=7",
+            "iframe": "`<iframe src='https://snapp-portal.net.internet2.edu/grafana/d-solo/86accab5aab6402a726547024df93fbf2/browse-interfaces?orgId=2&from=now-12h&to=now&panelId=7' width='450' height='200' frameborder='0'></iframe>`"
+        },
+        {
+            "source": "DCLS03",
+            "target": "DCBS01",
+            "url": "https://snapp-portal.net.internet2.edu/grafana/d/86accab5aab6402a726547024df93fbf2/browse-interfaces?orgId=2&viewPanel=7",
+            "iframe": "`<iframe src='https://snapp-portal.net.internet2.edu/grafana/d-solo/86accab5aab6402a726547024df93fbf2/browse-interfaces?orgId=2&from=now-12h&to=now&panelId=7' width='450' height='200' frameborder='0'></iframe>`"
+        },
+        {
+            "source": "DCLS03",
+            "target": "DCBS02",
+            "url": "https://snapp-portal.net.internet2.edu/grafana/d/86accab5aab6402a726547024df93fbf2/browse-interfaces?orgId=2&viewPanel=7",
+            "iframe": "`<iframe src='https://snapp-portal.net.internet2.edu/grafana/d-solo/86accab5aab6402a726547024df93fbf2/browse-interfaces?orgId=2&from=now-12h&to=now&panelId=7' width='450' height='200' frameborder='0'></iframe>`"
+        },
+        {
+            "source": "DCLS04",
+            "target": "DCBS01",
+            "url": "https://snapp-portal.net.internet2.edu/grafana/d/86accab5aab6402a726547024df93fbf2/browse-interfaces?orgId=2&viewPanel=7",
+            "iframe": "`<iframe src='https://snapp-portal.net.internet2.edu/grafana/d-solo/86accab5aab6402a726547024df93fbf2/browse-interfaces?orgId=2&from=now-12h&to=now&panelId=7' width='450' height='200' frameborder='0'></iframe>`"
+        },
+        {
+            "source": "DCLS04",
+            "target": "DCBS02",
+            "url": "https://snapp-portal.net.internet2.edu/grafana/d/86accab5aab6402a726547024df93fbf2/browse-interfaces?orgId=2&viewPanel=7",
+            "iframe": "`<iframe src='https://snapp-portal.net.internet2.edu/grafana/d-solo/86accab5aab6402a726547024df93fbf2/browse-interfaces?orgId=2&from=now-12h&to=now&panelId=7' width='450' height='200' frameborder='0'></iframe>`"
+        },
+        {
+            "source": "DCLS03",
+            "target": "DCLS04",
+            "url": "https://snapp-portal.net.internet2.edu/grafana/d/86accab5aab6402a726547024df93fbf2/browse-interfaces?orgId=2&viewPanel=7",
+            "iframe": "`<iframe src='https://snapp-portal.net.internet2.edu/grafana/d-solo/86accab5aab6402a726547024df93fbf2/browse-interfaces?orgId=2&from=now-12h&to=now&panelId=7' width='450' height='200' frameborder='0'></iframe>`"
+        }
+    ]
+}
